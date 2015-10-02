@@ -102,7 +102,7 @@ END;
 
 // String concatenation is done with .
 echo 'This string ' . 'is concatenated';
-// Strings concatenation can also be combined with html elements
+// Strings concatenation can also be combined with html tags
 echo 'This string is' . '<strong>' . 'bold with strong tags ' . '</strong>.' 
 
 
