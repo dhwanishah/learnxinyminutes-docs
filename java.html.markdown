@@ -47,30 +47,10 @@ public class LearnJava {
 
 
         ///////////////////////////////////////
-        // Variables 
+        // Types & Variables
         ///////////////////////////////////////
-        
-        /*
-        *  Variable Declaration
-        */
+
         // Declare a variable using <type> <name>
-        int fooInt;
-        // Declare multiple variables of same type <type> <name1>, <name2>, <name3>
-        int fooInt1, fooInt2, fooInt3;
-
-        /*
-        *  Variable Initialization
-        */
-
-        // Initialize a variable using <type> <name> = <val>
-        int fooInt = 1;
-        // Initialize multiple variables of same type with same value <type> <name1>, <name2>, <name3> = <val>
-        int fooInt1, fooInt2, fooInt3;
-        fooInt1 = fooInt2 = fooInt3 = 1;
-
-        /*
-        *  Variable types
-        */
         // Byte - 8-bit signed two's complement integer
         // (-128 <= byte <= 127)
         byte fooByte = 100;
@@ -437,26 +417,26 @@ class PennyFarthing extends Bicycle {
 
 // Example - Food:
 public interface Edible {
-	public void eat(); // Any class that implements this interface, must
+    public void eat(); // Any class that implements this interface, must
                        // implement this method.
 }
 
 public interface Digestible {
-	public void digest();
+    public void digest();
 }
 
 
 // We can now create a class that implements both of these interfaces.
 public class Fruit implements Edible, Digestible {
     @Override
-	public void eat() {
-		// ...
-	}
+    public void eat() {
+        // ...
+    }
 
     @Override
-	public void digest() {
-		// ...
-	}
+    public void digest() {
+        // ...
+    }
 }
 
 // In Java, you can extend only one class, but you can implement many
@@ -464,12 +444,12 @@ public class Fruit implements Edible, Digestible {
 public class ExampleClass extends ExampleClassParent implements InterfaceOne,
     InterfaceTwo {
     @Override
-	public void InterfaceOneMethod() {
-	}
+    public void InterfaceOneMethod() {
+    }
 
     @Override
-	public void InterfaceTwoMethod() {
-	}
+    public void InterfaceTwoMethod() {
+    }
 }
 ```
 
